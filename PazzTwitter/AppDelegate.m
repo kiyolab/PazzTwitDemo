@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  PazzTwitter
 //
-//  Created by LightCafe on 2014/03/27.
+//  Created by LightCafe on 2014/01/03.
 //  Copyright (c) 2014年 my.edu. All rights reserved.
 //
 
@@ -12,10 +12,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Background Fetchが呼ばれる「最短の間隔」をセット
+    // 必ずしもこの間隔で呼ばれるのではないので注意
+    // "UIApplicationBackgroundFetchIntervalMinimum" はOSが設定する最短時間を意味する
+    [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
+    
     // Override point for customization after application launch.
     return YES;
 }
-							
+
+-(void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    // Backgroundで行いたい処理を記述（コンテンツの更新処理など）
+    NSLog(@"Background Fetchが呼ばれた");
+    
+    
+    
+    // 完了時に呼ぶ
+    completionHandler(UIBackgroundFetchResultNewData);
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

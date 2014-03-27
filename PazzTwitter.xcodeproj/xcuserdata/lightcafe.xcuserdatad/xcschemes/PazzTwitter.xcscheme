@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0510"
-   version = "1.3">
+   version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88FCA44318E3B304007C3306"
+               BlueprintIdentifier = "88ABEF4F1876F75400E61148"
                BuildableName = "PazzTwitter.app"
                BlueprintName = "PazzTwitter"
                ReferencedContainer = "container:PazzTwitter.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88FCA46418E3B304007C3306"
+               BlueprintIdentifier = "88ABEF701876F75400E61148"
                BuildableName = "PazzTwitterTests.xctest"
                BlueprintName = "PazzTwitterTests"
                ReferencedContainer = "container:PazzTwitter.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "88FCA44318E3B304007C3306"
+            BlueprintIdentifier = "88ABEF4F1876F75400E61148"
             BuildableName = "PazzTwitter.app"
             BlueprintName = "PazzTwitter"
             ReferencedContainer = "container:PazzTwitter.xcodeproj">
@@ -57,11 +57,12 @@
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
-      allowLocationSimulation = "YES">
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "1">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "88FCA44318E3B304007C3306"
+            BlueprintIdentifier = "88ABEF4F1876F75400E61148"
             BuildableName = "PazzTwitter.app"
             BlueprintName = "PazzTwitter"
             ReferencedContainer = "container:PazzTwitter.xcodeproj">
@@ -79,7 +80,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "88FCA44318E3B304007C3306"
+            BlueprintIdentifier = "88ABEF4F1876F75400E61148"
             BuildableName = "PazzTwitter.app"
             BlueprintName = "PazzTwitter"
             ReferencedContainer = "container:PazzTwitter.xcodeproj">
